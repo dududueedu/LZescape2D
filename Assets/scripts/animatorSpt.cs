@@ -13,7 +13,10 @@ public class animatorSpt : MonoBehaviour {
         if(Input.GetKey(KeyCode.RightArrow)){
             this.gameObject.GetComponent<Animator>().SetBool("pressed", true);
         }
-        if(Input.GetKey(KeyCode.LeftArrow)){
+        else if(Input.GetKey(KeyCode.LeftArrow)){
+            this.gameObject.GetComponent<Animator>().SetBool("pressed", true);
+        }
+        else{
             this.gameObject.GetComponent<Animator>().SetBool("pressed", false);
         }
     }
