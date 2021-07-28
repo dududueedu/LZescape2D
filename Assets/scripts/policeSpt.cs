@@ -19,4 +19,9 @@ public class policeSpt : MonoBehaviour {
             transform.position = Vector2.MoveTowards(transform.position, Target.position, Speed * Time.deltaTime);
         }
     }
+    void OnCollisionEnter(Collision coll){
+        if(coll.gameObject.tag.Equals("Player")){
+            Debug.Log("Vc perdeu! bateu no teto ou no chão.");
+        }
+    }
 }
