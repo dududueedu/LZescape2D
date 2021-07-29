@@ -21,7 +21,8 @@ public class policeSpt : MonoBehaviour {
     }
     void OnCollisionEnter(Collision coll){
         if(coll.gameObject.tag.Equals("Player")){
-            Debug.Log("Vc perdeu! bateu no teto ou no chão.");
+            Debug.Log("Vc perdeu! O policial Federico lhe capturou!");
+            this.gameObject.GetComponent<lifesSpt>().removeLifes();
         }
     }
 }
