@@ -7,6 +7,7 @@ public class playerSpt : MonoBehaviour{
 
     Rigidbody rigidbody;
     public float jumpForce;
+    public bool isJumping;
     //public float forc = 150f;
 
     void Start(){
@@ -14,13 +15,8 @@ public class playerSpt : MonoBehaviour{
     }
 
     void Update(){
-        if(Input.GetKey(KeyCode.LeftArrow)) this.gameObject.transform.Translate( Vector3.left*0.01f );
-        else if(Input.GetKey(KeyCode.RightArrow)) this.gameObject.transform.Translate( Vector3.right*0.01f );
-        //else if(Input.GetKey(KeyCode.Space)){
-        //    rigidbody.AddForce(Vector3.up*forc);
-        //}
-        //else if(Input.GetKey(KeyCode.UpArrow)) this.gameObject.transform.Translate( Vector3.forward*0.2f );
-        //else if(Input.GetKey(KeyCode.DownArrow)) this.gameObject.transform.Translate( Vector3.forward*-0.1f );
+        Move();
+        Jump();
     }
 
     void OnCollisionEnter(Collision coll){
@@ -30,8 +26,13 @@ public class playerSpt : MonoBehaviour{
         }
     }
 
+    void Move(){
+        if(Input.GetKey(KeyCode.LeftArrow)) this.gameObject.transform.Translate( Vector3.left*0.01f );
+        else if(Input.GetKey(KeyCode.RightArrow)) this.gameObject.transform.Translate( Vector3.right*0.01f );
+    }
+
     void Jump(){
-        if(Input.GetButtonDown("Jump")){
+        if(Input.GetButtonDown("Jump") && !isJumping){
             rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode.Impulse);
         }
     }
