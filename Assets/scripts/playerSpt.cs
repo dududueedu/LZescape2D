@@ -8,6 +8,7 @@ public class playerSpt : MonoBehaviour{
     Rigidbody rigidbody;
     public float jumpForce;
     public bool isJumping;
+    
     //public float forc = 150f;
 
     void Start(){
@@ -35,5 +36,10 @@ public class playerSpt : MonoBehaviour{
         if(Input.GetButtonDown("Jump") && !isJumping){
             rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode.Impulse);
         }
+    }
+
+    void OnTriggerEnter(Collider other){
+        other.gameObject.SetActive(false);
+        this.gameObject.GetComponent<lifesSpt>().addLifes();
     }
 }

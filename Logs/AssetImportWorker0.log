@@ -15,11 +15,11 @@ C:/Users/dudud/Videos/LZescape2D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63743
+49276
 Successfully changed project path to: C:/Users/dudud/Videos/LZescape2D
 C:/Users/dudud/Videos/LZescape2D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 53.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 62.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -35,161 +35,201 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.004051 seconds.
+Registered in 0.004092 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.944 seconds
+- Completed reload, in  2.805 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001389 seconds.
+Registered in 0.001272 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 46.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.360 seconds
+- Completed reload, in  1.282 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.2 MB.
+System memory in use before: 85.3 MB.
 System memory in use after: 85.2 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2260.
-Total: 4.016800 ms (FindLiveObjects: 0.465500 ms CreateObjectMapping: 0.224500 ms MarkObjects: 3.158600 ms  DeleteObjects: 0.165400 ms)
+Total: 3.390100 ms (FindLiveObjects: 0.356600 ms CreateObjectMapping: 0.204600 ms MarkObjects: 2.657200 ms  DeleteObjects: 0.168500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/scripts/playerSpt.cs
-  artifactKey: Guid(7bcd6b237c74026458c7ce472632bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/playerSpt.cs using Guid(7bcd6b237c74026458c7ce472632bccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f2484d66f26a84a936523d6c57ac73') in 0.062540 seconds
-  Import took 0.067375 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0957015b6c263d896003993af87a31') in 0.065852 seconds
+  Import took 0.071247 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001430 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 3.133800 ms (FindLiveObjects: 0.362500 ms CreateObjectMapping: 0.183900 ms MarkObjects: 2.408300 ms  DeleteObjects: 0.176600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.179331 seconds.
-  path: Assets/TowerGamePack/Sprites
-  artifactKey: Guid(a147ba5ca3a0d7a49b4c7308947aacea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites using Guid(a147ba5ca3a0d7a49b4c7308947aacea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1240c18388a811aa186699737e2f29a') in 0.050893 seconds
-  Import took 0.055300 seconds .
+  Time since last request: 82.478864 seconds.
+  path: Assets/Prefabs/star.prefab
+  artifactKey: Guid(0007be70ccc003d4fba8a14f2b6f5056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/star.prefab using Guid(0007be70ccc003d4fba8a14f2b6f5056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce5c6d0ec4d2414eb738ce87cbf9631') in 0.040809 seconds
+  Import took 0.047478 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.103970 seconds.
-  path: Assets/TowerGamePack/Sprites/bitmap.png
-  artifactKey: Guid(3183172a1dca0724f8c95008c1bb9225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/bitmap.png using Guid(3183172a1dca0724f8c95008c1bb9225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0eb8d6b17136715ba17a78e41ca2699') in 0.333459 seconds
-  Import took 0.342862 seconds .
+  Time since last request: 24.552348 seconds.
+  path: Assets/Prefabs/startSpript.cs
+  artifactKey: Guid(bf8cc33e6710b364ba2b1df36223a1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/startSpript.cs using Guid(bf8cc33e6710b364ba2b1df36223a1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2845145b7e47a260ab9ce8744dc9a5') in 0.091217 seconds
+  Import took 0.096360 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/TowerGamePack/Sprites/path9418.png
-  artifactKey: Guid(f636f2a5e16029f4ea1c4efc34411219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/path9418.png using Guid(f636f2a5e16029f4ea1c4efc34411219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d273d175c943a8d18a0e5d7943c260') in 0.039072 seconds
-  Import took 0.044653 seconds .
+  Time since last request: 34.538390 seconds.
+  path: Assets/Prefabs/sss.prefab
+  artifactKey: Guid(d4b8dfdbb034e2542a8ebe49a5e8a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sss.prefab using Guid(d4b8dfdbb034e2542a8ebe49a5e8a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062e56e1dc1a27aa70d01b59c646400e') in 0.117509 seconds
+  Import took 0.122885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/TowerGamePack/Sprites/grasstop.png
-  artifactKey: Guid(058ba2d696de8784db185947a5f55278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/grasstop.png using Guid(058ba2d696de8784db185947a5f55278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e265460b2f368c8a51d35c3d9e4497') in 0.029281 seconds
-  Import took 0.037340 seconds .
+  Time since last request: 14.032219 seconds.
+  path: Assets/Prefabs/startr.prefab
+  artifactKey: Guid(d4b8dfdbb034e2542a8ebe49a5e8a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/startr.prefab using Guid(d4b8dfdbb034e2542a8ebe49a5e8a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83283c90def1187090450b58dc0b71ed') in 0.052519 seconds
+  Import took 0.061515 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/TowerGamePack/Sprites/trees.png
-  artifactKey: Guid(b7497f9dfa0009047b276a7fcbc06204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/trees.png using Guid(b7497f9dfa0009047b276a7fcbc06204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a6e5ac6abe8883fa84ab72f529642f') in 0.087913 seconds
-  Import took 0.094013 seconds .
+  Time since last request: 5.363615 seconds.
+  path: Assets/Prefabs/start.prefab
+  artifactKey: Guid(d4b8dfdbb034e2542a8ebe49a5e8a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/start.prefab using Guid(d4b8dfdbb034e2542a8ebe49a5e8a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b8a659751c1c34f754df09410b7384') in 0.030227 seconds
+  Import took 0.035772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/TowerGamePack/Sprites/tover.png
-  artifactKey: Guid(250ee570ea7c61746868682510e6528b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/tover.png using Guid(250ee570ea7c61746868682510e6528b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f1becb4a01798856396ea6d274f37d') in 0.130278 seconds
-  Import took 0.134741 seconds .
+  Time since last request: 0.003325 seconds.
+  path: Assets/Prefabs/start.prefab
+  artifactKey: Guid(d4b8dfdbb034e2542a8ebe49a5e8a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/start.prefab using Guid(d4b8dfdbb034e2542a8ebe49a5e8a472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b8a659751c1c34f754df09410b7384') in 0.029514 seconds
+  Import took 0.040243 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/TowerGamePack/Sprites/Scenery.png
-  artifactKey: Guid(43fa081eef48e804bb1494e8d3361057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/Scenery.png using Guid(43fa081eef48e804bb1494e8d3361057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4073143e450febe067037207fe42b52') in 0.102410 seconds
-  Import took 0.107887 seconds .
+  Time since last request: 184.581209 seconds.
+  path: Assets/scripts/LIFES
+  artifactKey: Guid(8d90289cf13240c45967832e7c5b916d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/LIFES using Guid(8d90289cf13240c45967832e7c5b916d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2b3034667b65e86cd7039aea4e36ce') in 0.011733 seconds
+  Import took 0.020465 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/TowerGamePack/Sprites/stone.png
-  artifactKey: Guid(63f7fe1ee9c5dd94abdad61d721c39bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/stone.png using Guid(63f7fe1ee9c5dd94abdad61d721c39bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70dee79f95b7f314ec0372b7687594d0') in 0.102047 seconds
-  Import took 0.108396 seconds .
+  Time since last request: 1.001247 seconds.
+  path: Assets/scripts/LIFES/lifesSpt.cs
+  artifactKey: Guid(ea0f457cd91967a4ab3126eb90668e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/LIFES/lifesSpt.cs using Guid(ea0f457cd91967a4ab3126eb90668e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6a5013b917c588b8d53cd304117d6f') in 0.012814 seconds
+  Import took 0.095277 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/TowerGamePack/Sprites/TREE_HOUSE3.png
-  artifactKey: Guid(d5974c70f22756c409aeab06ee3d97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/TREE_HOUSE3.png using Guid(d5974c70f22756c409aeab06ee3d97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0bae36be662deb296d05a8f3a45a50') in 0.044810 seconds
-  Import took 0.050174 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001834 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 3.849100 ms (FindLiveObjects: 0.471600 ms CreateObjectMapping: 0.272700 ms MarkObjects: 2.959600 ms  DeleteObjects: 0.143200 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/TowerGamePack/Sprites/shadow.png
-  artifactKey: Guid(3c8a7e4bb08cebd4ebd5baa7e6068ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/shadow.png using Guid(3c8a7e4bb08cebd4ebd5baa7e6068ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e156d9042f224ce377245383b26473e') in 0.039344 seconds
-  Import took 0.046242 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.248 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 2.800000 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.146500 ms MarkObjects: 2.122000 ms  DeleteObjects: 0.237500 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/TowerGamePack/Sprites/grass.png
-  artifactKey: Guid(cc84aeff9ec56654ea3db8e5f65b632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/grass.png using Guid(cc84aeff9ec56654ea3db8e5f65b632f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0d2dfe2885cf7140ad53fe2e9bc3b9') in 0.103621 seconds
-  Import took 0.110634 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.5 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/TowerGamePack/Sprites/sky.png
-  artifactKey: Guid(e5624d07935d8bf4eb3b22ab75650c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/sky.png using Guid(e5624d07935d8bf4eb3b22ab75650c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcd3354d144b076e40d4e747eacd90e') in 0.033087 seconds
-  Import took 0.038709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005886 seconds.
-  path: Assets/TowerGamePack/Sprites/sky.png
-  artifactKey: Guid(e5624d07935d8bf4eb3b22ab75650c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/sky.png using Guid(e5624d07935d8bf4eb3b22ab75650c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcd3354d144b076e40d4e747eacd90e') in 0.020980 seconds
-  Import took 0.026651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.822707 seconds.
-  path: Assets/TowerGamePack/Sprites/sss.png
-  artifactKey: Guid(e367a389c63fb7c4cae72e04047f81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TowerGamePack/Sprites/sss.png using Guid(e367a389c63fb7c4cae72e04047f81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2606d4681eff83b5c62b30c580e99cdb') in 0.034921 seconds
-  Import took 0.040248 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2284.
+Total: 3.390800 ms (FindLiveObjects: 0.293300 ms CreateObjectMapping: 0.199100 ms MarkObjects: 2.728100 ms  DeleteObjects: 0.168400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

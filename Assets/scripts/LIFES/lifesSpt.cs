@@ -22,6 +22,12 @@ public class lifesSpt : MonoBehaviour{
         }
     }
 
+    public void addLifes(){
+        this.life ++;
+        if(this.life < 4){
+            this.lifeText.text = life.ToString();
+        }
+    }
     // Update is called once per frame
     //void Update(){
     //    
