@@ -23,7 +23,7 @@ public class playerSpt : MonoBehaviour{
     void OnCollisionEnter(Collision coll){
         if(coll.gameObject.tag.Equals("HOUSE")){
             Debug.Log("Vc ganhou!!!");
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("GameGain");
         }
     }
 
