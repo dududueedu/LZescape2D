@@ -10,7 +10,7 @@ public class lifesSpt : MonoBehaviour{
     public Text lifeText;
     // Start is called before the first frame update
     void Start(){
-        this.life = 1;
+        this.life = 0;
     }
 
     public void removeLifes(){
@@ -24,8 +24,10 @@ public class lifesSpt : MonoBehaviour{
 
     public void addLifes(){
         this.life ++;
-        if(this.life < 4){
-            this.lifeText.text = life.ToString();
+        this.lifeText.text = life.ToString();
+        
+        if(this.life == 3){
+            SceneManager.LoadScene("GameGain");
         }
     }
     // Update is called once per frame
