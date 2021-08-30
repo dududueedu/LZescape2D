@@ -25,6 +25,10 @@ public class playerSpt : MonoBehaviour{
             Debug.Log("Vc ganhou!!!");
             SceneManager.LoadScene("GameGain");
         }
+        if(coll.gameObject.tag.Equals("Enemy")){
+            Debug.Log("Vc perdeu!!!");
+            SceneManager.LoadScene("GameOver");
+        }
     }
 
     void Move(){
